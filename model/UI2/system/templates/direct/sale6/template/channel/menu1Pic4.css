@@ -1,0 +1,21 @@
+.x-title-data {
+  padding-top: 10px;
+  font-size: 15px;
+  color: black;
+}
+.x-intro{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: inherit;
+  -webkit-box-flex: 2;
+  -ms-box-flex: 2;
+  -moz-box-flex: 2;
+  box-flex: 2;
+  -o-box-flex: 2;
+  -webkit-flex: 2 1 0px;
+  -moz-flex: 2 1 0px;
+  -ms-flex: 2 1 0px;
+  -o-flex: 2 1 0px;
+  flex: 2 1 0px;
+}

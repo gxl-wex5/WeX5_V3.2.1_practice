@@ -1,0 +1,61 @@
+.x-carousel .x-contents >.x-contents-content{
+	overflow: hidden;
+}
+.x-carousel .x-contents >.x-contents-content>img{
+	position: relative;
+	margin-left:-160px;
+	left: 50%;
+	width:320px
+}
+.main12 .grid1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.main12 .grid {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.main12 .col {
+
+  padding: 0;
+}
+.main12 .grid .col .card {
+  width: 60px;
+  margin: 10px auto;
+  text-align: center;
+  border: 0px solid #888;
+  border-radius: 6px;
+  padding: 5px;
+  box-sizing: content-box;
+}
+.main12 .grid .col:nth-child(1){background-color: #3e5d96}
+.main12 .grid .col:nth-child(2){background-color: #1dadec}
+.main12 .grid .col:nth-child(3){background-color: #d94a39}
+.main12 .grid .col:nth-child(4){background-color: #e7912a}
+.main12 .grid .col:nth-child(5){background-color: #533630}
+.main12 .grid .col .card i {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  color: #fff;
+}
+.main12 .grid .col .card .title {
+  display: block;
+  text-align: center;
+  word-wrap: break-word;
+  color:#fff
+}
+.main12 .x-title-data {
+  padding-top: 10px;
+  font-size: 15px;
+  color: #000;
+}
+.main12 .x-intro{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: inherit;
+  -webkit-box-flex: 2;
+}

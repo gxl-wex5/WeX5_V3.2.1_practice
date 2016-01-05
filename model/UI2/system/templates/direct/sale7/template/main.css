@@ -1,0 +1,56 @@
+.x-bg-img{
+	background-color: #ebebeb;
+}
+
+#container {
+	width: 100%;
+	max-width: 640px;
+	min-width: 320px;
+	margin: 0 auto;
+}
+
+.x-grid-menu7-1{ margin:2.2% 0 0.7% 3.2%;}
+.x-grid-menu7-1 .cell{ float:left; margin:0 1.7% 1% 0; background:#e5eaed; position:relative; box-shadow:0 0 0.3em rgba(0,0,0,0.13); border-radius:0.1em;}
+.x-grid-menu7-1 .cell .card{ display:block; font-weight:bold; color:#465f78;}
+.x-grid-menu7-1 .cell img{ vertical-align:middle;}
+.x-grid-menu7-1 .cell span{ position:absolute; left:0; top:0; overflow:hidden;}
+.x-grid-menu7-1 .cell:nth-child(1){ width:63.9%; background:-webkit-linear-gradient(#f7f9fb 0%,#f0f4f7 3%,#ecf0f4 4%,#e6eaed 38%,#e5eaed 100%);}
+.x-grid-menu7-1 .cell:nth-child(1) .card{ height:9.6em;}
+.x-grid-menu7-1 .cell:nth-child(1) img{ height:5.68em; margin:17.2% 0 0 5.1%;}
+.x-grid-menu7-1 .cell:nth-child(1) span{ line-height:0.9em; left:55%; top:38%;}
+.x-grid-menu7-1 .cell:nth-child(2){ width:31.3%; background:-webkit-linear-gradient(#f7f9fb 0%,#f0f4f7 7%,#ecf0f4 8%,#e6eaed 38%,#e5eaed 100%);}
+.x-grid-menu7-1 .cell:nth-child(2) .card{ height:4.66em; position:relative;}
+.x-grid-menu7-1 .cell:nth-child(2) img{ height:3.41em; position:absolute; left:3.1%; bottom:0;}
+.x-grid-menu7-1 .cell:nth-child(2) span{ left:46%; top:8%;}
+.x-grid-menu7-1 .cell:nth-child(3){ width:31.3%; background:-webkit-linear-gradient(#f7f9fb 0%,#f0f4f7 7%,#ecf0f4 8%,#e6eaed 38%,#e5eaed 100%);}
+.x-grid-menu7-1 .cell:nth-child(3) .card{ height:4.66em;}
+.x-grid-menu7-1 .cell:nth-child(3) img{ height:3.5em; margin:10% 0 0 4%;}
+.x-grid-menu7-1 .cell:nth-child(3) span{ left:20%; top:20%; text-align:right;}
+
+.x-grid-menu7-2{ margin:0 0 2.5% 3.2%;}
+.x-grid-menu7-2 .cell{ float:left; width:31%; margin:0 1.7% 0 0; text-align:center; background:#e4e9ec; background:-webkit-linear-gradient(#f7f9fb 0%,#f0f4f7 3%,#ecf0f4 4%,#e4e9ec 38%,#e4e7ec 100%); box-shadow:0 0 0.5em rgba(0,0,0,0.13); border-radius:0.1em;}
+.x-grid-menu7-2 .cell .card{ display:block; height:9.7em; font-weight:bold; color:#465f78;}
+.x-grid-menu7-2 .cell img{ height:5.74em; margin:17% 0 4%; vertical-align:middle;}
+.x-grid-menu7-2 .cell span{ display:inline-block; width:100%; height:1.3em; overflow:hidden;}
+.x-grid-menu7-2 .cell:nth-child(1){ width:31.3%;}
+
+.x-grid-menu7-4{ height:2em; line-height:2em; padding:0 4%; margin-bottom:2.2%; color:#465f78; border-bottom:#b0b8bd solid 1px; background:#e5eaed; background:-webkit-linear-gradient(#f8f8fa 0%,#f8f8fa 3%,#f2f3f6 4%,#dbe2e5 100%); overflow:hidden;}
+.x-grid-menu7-4 a{ color:#465f78;}
+.x-grid-menu7-4 span{ float:left;}
+.x-grid-menu7-4 .cell{ float:left; width:79%;}
+.x-grid-menu7-4 .cell .card{ height:2em; overflow:hidden;}
+
+.x-grid-menu7-3{ margin:0 0 2.5% 3.2%;}
+.x-grid-menu7-3 .cell{ float:left; width:31%; margin:0 1.7% 0 0; text-align:center; background:#e4e9ec; background:-webkit-linear-gradient(#f7f9fb 0%,#f0f4f7 3%,#ecf0f4 4%,#e4e9ec 38%,#e4e7ec 100%); box-shadow:0 0 0.5em rgba(0,0,0,0.13); border-radius:0.1em;}
+.x-grid-menu7-3 .cell .card{ display:block; height:9.7em; font-weight:bold; color:#465f78;}
+.x-grid-menu7-3 .cell img{ height:6.15em; margin:11% 0 4%; vertical-align:middle;}
+.x-grid-menu7-3 .cell span{ display:inline-block; width:100%; height:1.3em; overflow:hidden;}
+.x-grid-menu7-3 .cell:nth-child(1){ width:31.3%;}
+@media screen and (min-width:480px){
+	#container{ font-size:18px;}
+	#container .x-grid-menu7-1 li:nth-child(1) span{ font-size:26px;}
+}
+@media screen and (min-width:640px){
+	#container{ font-size:24px;}
+	#container .x-grid-menu7-1 li:nth-child(1) span{ font-size:30px;}
+}

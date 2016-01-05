@@ -1,0 +1,91 @@
+/**
+	@name com.telerik.plugins.nativepagetransitions
+	@class
+	@description 本地转场动画插件
+	@model Native
+	@declareVar plugins.barcodeScanner
+*/
+
+/**
+	@name com.telerik.plugins.nativepagetransitions.slide
+ 	@function
+ 	@param {String} options 请求参数
+ 	<br/><b>参数结构如下</b>
+ 	<xmp>
+ 		{
+ 		 	"direction" : 方向  取值范围'left|right|up|down'，缺省为'left'
+  			"duration" :  500  频率，缺省为400
+  			"slowdownfactor" :  视图重叠，不重叠为1，缺省为4	
+  			"iosdelay" :  100  ms to wait for the iOS webview to update before animation kicks in，缺省为 60
+  			"androiddelay" :  150, // same as above but for Android，缺省为70
+  			"winphonedelay" :  250, // same as above but for Windows Phone，缺省为200,
+  			"fixedPixelsTop" : 固定头的像素数, // the number of pixels of your fixed header，缺省为0 (iOS and Android)
+  			"fixedPixelsBottom" : 固定脚的像素数 ，缺省为0 (iOS and Android)
+ 		}
+ 	</xmp>
+ 	@param {Function} onSuccess 请求成功的回调函数
+ 	@param {Function} onError 请求失败的回调函数
+ 	@returns {void}
+ 	@description 幻灯片动画
+*/
+
+/**
+	@name com.telerik.plugins.nativepagetransitions.drawer
+ 	@function
+ 	@param {String} options 请求参数
+ 	<br/><b>参数结构如下</b>
+ 	<xmp>
+ 		{
+ 		 	"direction" : 方向  取值范围'left|right|up|down'，缺省为'left'
+  			"duration" :  500  频率，缺省为400
+  			"slowdownfactor" :  视图重叠，不重叠为1，缺省为4	
+  			"iosdelay" :  100  ms to wait for the iOS webview to update before animation kicks in，缺省为 60
+  			"androiddelay" :  150, // same as above but for Android，缺省为70
+  			"winphonedelay" :  250, // same as above but for Windows Phone，缺省为200,
+  			"fixedPixelsTop" : 固定头的像素数, // the number of pixels of your fixed header，缺省为0 (iOS and Android)
+  			"fixedPixelsBottom" : 固定脚的像素数 ，缺省为0 (iOS and Android)
+ 		}
+ 	</xmp>
+ 	@param {Function} onSuccess 请求成功的回调函数
+ 	@param {Function} onError 请求失败的回调函数
+ 	@returns {void}
+ 	@description 幻灯片动画
+*/
+
+/**
+	@name com.telerik.plugins.nativepagetransitions.flip
+ 	@function
+ 	@param {String} options 请求参数
+ 	<br/><b>参数结构如下</b>
+ 	<xmp>
+ 		{
+ 		 	"direction" : 方向  取值范围'left|right|up|down'，缺省为'left'
+  			"duration" :  500  频率，单位毫秒数，缺省为400
+  			"iosdelay" :  100  等待IOS webview 动画转场的时间，缺省为 60
+  			"androiddelay" :  150, //同上，用于Android，缺省为70
+  			"winphonedelay" :  250, //同上，用于 Windows Phone，缺省为200,
+ 		}
+ 	</xmp>
+ 	@param {Function} onSuccess 请求成功的回调函数
+ 	@param {Function} onError 请求失败的回调函数
+ 	@returns {void}
+ 	@description 幻灯片动画
+*/
+
+/**
+	@name com.telerik.plugins.nativepagetransitions.fade
+ 	@function
+ 	@param {String} options 请求参数
+ 	<br/><b>参数结构如下</b>
+ 	<xmp>
+ 		{
+  			"duration" :  500  频率，单位毫秒数，缺省为400
+  			"iosdelay" :  100  等待IOS webview 动画转场的时间，缺省为 60
+  			"androiddelay" :  150, //同上，用于Android，缺省为70
+ 		}
+ 	</xmp>
+ 	@param {Function} onSuccess 请求成功的回调函数
+ 	@param {Function} onError 请求失败的回调函数
+ 	@returns {void}
+ 	@description 幻灯片动画
+*/

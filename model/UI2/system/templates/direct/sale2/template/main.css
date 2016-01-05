@@ -1,0 +1,90 @@
+.x-bg-img {
+	background: url('./img/bg2.jpg');
+	background-size: 100% 100%
+}
+
+.grid92{
+	width: 100%;
+	max-width: 640px;
+	min-width: 320px;
+	margin: 0 auto;
+}
+.grid92 .grid {
+	overflow: hidden !important;
+	margin: 4.5% 0 0 3%;
+}
+
+
+.grid .cell {
+	float: left;
+	width: 30.9%;
+	margin: 0 2% 5% 0;
+}
+
+.grid .cell .card {
+	display: block;
+	height: 5.71em;
+	text-align: center;
+}
+
+.grid .cell .card img{
+	height: 2.65em;
+	margin: 10% 0 4%;
+	vertical-align: middle;
+}
+
+.grid >div:nth-child(1) {
+	background-color: #1d8090;
+}
+.grid >div:nth-child(2) {
+	background-color: #4481d3;
+}
+
+.grid >div:nth-child(3) {
+	background-color: #911b97;
+}
+
+.grid >div:nth-child(4) {
+	background-color: #1d921e;
+}
+
+.grid >div:nth-child(5) {
+	background-color: #c46446;
+}
+
+.grid >div:nth-child(6) {
+	background-color: #a43553;
+}
+
+.grid >div:nth-child(7) {
+	background-color: #8134a8;
+}
+
+.grid >div:nth-child(8) {
+	background-color: #2559a3;
+}
+
+.grid >div:last-child {
+	background: #e4e2e3;
+	background: -webkit-linear-gradient(#e4e2e3 0%, #c7c6c6 100%);
+}
+
+.grid >div:last-child span {
+	color: #616161;
+}
+
+.grid .cell .card .title {
+	display: inline-block;
+	width: 100%;
+	height: 1.38em;
+	color: #fff;
+	font-weight: bold;
+	overflow: hidden;
+}
+
+@media screen and (min-width:320px){
+	.grid92{ font-size:18px;}
+}
+@media screen and (min-width:640px){
+	.grid92{ font-size:22px;}
+}

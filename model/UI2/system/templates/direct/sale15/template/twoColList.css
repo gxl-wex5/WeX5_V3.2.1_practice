@@ -1,0 +1,12 @@
+/*顶部titlebar**/
+.x-titlebar{ background-color:#ff4400;}
+.x-index.x-titlebar .x-titlebar-title{ padding:10px 0;}
+.x-index.x-titlebar .form-group input{ background-color:#ff4400; border-top:0; border-left:0; border-right:0;}
+
+.btn-group{ border-top:1px solid #e7e7e7; border-bottom:1px solid #e7e7e7;}
+.btn-group .btn{ border-left:1px solid #e7e7e7;}
+
+.text-block{ color:#555;}
+
+/*内容*/
+.x-twoColList.col-xs-6{ padding:10px;}

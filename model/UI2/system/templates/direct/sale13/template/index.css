@@ -1,0 +1,17 @@
+.x-cards{padding-top:0;}
+.panel.panel-default{ margin-bottom:10px;}
+.row{ margin:0;}
+.x-type{ padding:5px;}
+.x-nopadding.col{ padding:0;}
+.x-index .btn span{ font-size:12px; font-weight:normal;}
+
+/*顶部titlebar*/
+.x-index.x-titlebar{ background-color:#ff4400;}
+.x-index.x-titlebar .btn{ padding:0;}
+.x-index.x-titlebar .btn-link{ height:auto;}
+.x-index.x-titlebar .x-titlebar-title{ padding:10px 0;}
+.x-index.x-titlebar .form-group input{ background-color:#ff4400; border-top:0; border-left:0; border-right:0;}
+
+/*底部*/
+.x-index.btn-group{ background-color:#fff;}
+.x-index.btn-group .btn:hover,.x-card.btn-group .btn.active{ color:#ff4400; padding:0;}

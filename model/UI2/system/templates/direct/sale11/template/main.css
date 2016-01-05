@@ -1,0 +1,65 @@
+.x-carousel .x-contents >.x-contents-content{
+	overflow: hidden;
+}
+.x-carousel .x-contents >.x-contents-content>img{
+	position: relative;
+	margin-left:-160px;
+	left: 50%;
+	width:320px
+}
+
+.main11 .grid {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.main11 .cell {
+  padding: 0;
+}
+.main11 .grid .cell .card {
+  width: 60px;
+  margin: 10px auto;
+  text-align: center;
+  border: 0px solid #888;
+  border-radius: 6px;
+  padding: 5px;
+  box-sizing: content-box;
+}
+.main11 .grid .cell{background-color: #5fc7d5;margin-right:1px}
+.main11 .grid .cell .card i {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  color: #fff;
+}
+.main11 .grid .cell .card .title {
+  display: block;
+  text-align: center;
+  word-wrap: break-word;
+  color:#fff
+}
+.main11 .grid1{
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+.main11 .grid1 .cell {
+  padding: 0;
+}
+.main11 .grid1 .cell .card {
+  width: 60px;
+  margin: 0;
+  border: 0px solid #888;
+  border-radius: 6px;
+  padding: 5px;
+  box-sizing: content-box;
+}
+.main11 .grid1 .cell .card image {
+width:100%; vertical-align:middle;
+}
+.main11 .grid1 .cell .card .title {
+  display: block;
+  text-align: center;
+  word-wrap: break-word;
+}

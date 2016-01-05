@@ -1,0 +1,37 @@
+.x-bg-ig{
+	background: url('./img/index3Pic.jpg') no-repeat;
+	background-size:cover;
+	font:0.75em 'microsoft yahei'
+}
+.x-oh {
+	overflow: hidden !important;
+}
+
+#conter {
+	width: 100%;
+	max-width: 640px;
+	min-width: 320px;
+	margin: 0 auto;
+	height:35.3em;
+	
+}
+.x-mu{ width:65%; padding:31% 0 0 5.2%;}
+.x-mu li{ float:left; width:42.3%; margin:0 6.2% 5.2% 0; border-radius:3.76em;}
+.x-mu li div{ display:block; height:7.32em; text-align:center;text-decoration:none;}
+.x-mu li img{ height:2.1em;border:0;margin:23% 0 12%; vertical-align:middle;}
+.x-mu li span{ display:inline-block; width:90%; height:1.26em; padding:0 15%; font-weight:bold; color:#fff; overflow:hidden;}
+.x-mu li:nth-child(1){ background:#d1a64c;}
+.x-mu li:nth-child(2){ background:#64b9b9;}
+.x-mu li:nth-child(3){ background:#7ca156;}
+.x-mu li:nth-child(4){ background:#ca592e;}
+.x-mu li:nth-child(5){ background:#6765a5;}
+.x-mu li:nth-child(6){ background:#c27bbc;}
+ul{
+	list-type: none
+}
+@media screen and (min-width:480px){
+	#conter{ font-size:18px;}
+}
+@media screen and (min-width:640px){
+	#conter{ font-size:24px;}
+}

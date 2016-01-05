@@ -1,0 +1,27 @@
+.text-black{ color:#333;}
+/*删除线*/
+.text-del{ text-decoration:line-through;}
+/*竖线*/
+.x-line{border-right:1px solid #d1d1d1;}
+/*去除col的padding*/
+.x-nopadding .col{ padding:0;}
+
+.x-cards{ padding-top:0;}
+.panel.panel-default{ margin-bottom:10px;}
+
+.row{ margin:0;}
+
+.thumbnail{ margin-bottom:0; padding:8px 0;}
+
+/*顶部titlebar**********************************************/
+.x-titlebar{ background-color:#ff4400;}
+
+/*底部********************************************************/
+.btn-icon-top span{font-size:12px;}
+.x-panel-bottom { border-top:1px solid #d3d3d3; border-bottom:1px solid #d3d3d3;}
+.x-panel-bottom .btn{ color:#666; padding:3px 0 0 0;}
+.x-panel-bottom .btn:nth-child(2){ border-left:1px solid #dcdcdc; border-right:1px solid #dcdcdc;}
+.x-panel-bottom .shopping .btn{ height:48px; font-size:14px; margin:0; padding:0; border-radius:0; box-shadow:none; border:none; box-sizing:none; background:none; color:#fff;}
+.x-panel-bottom .shopping .btn:first-child{ background-color:#fe9100;}
+.x-panel-bottom .shopping .btn:last-child{ background-color:#fd5001;}
+

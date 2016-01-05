@@ -1,0 +1,17 @@
+.text-black{ color:#333;}
+
+/*顶部titlebar*/
+.x-panel-top .x-titlebar{ background-color:#f9f9f9; border-bottom:1px solid #b2b2b2;}
+
+.row{ margin:0; padding:0; width:100%;}
+.row>.col{ margin:0; padding:0;}
+.row>.col:first-child{ padding-right:10px;}
+
+.img3{ width:100%; height:60px;}
+
+.left{ margin:0; padding:0; overflow:hidden;}
+.left>.x-list { height:100%; overflow-y:scroll;}
+
+.list-group-item{ background-color:#f1f1f1;}
+.list-group-item.current{ background-color:#fff; border-top:1px solid #dfdfdf; border-right:none; color:#cf0202;}
+.list-group-item.current h5{ color:#cf0202;}

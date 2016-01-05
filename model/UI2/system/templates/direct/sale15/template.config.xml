@@ -1,0 +1,12 @@
+<template text="通用" desc="左图右文列表" custom="false">
+	<images>
+		<image src="template.png"/>
+	</images>
+
+	<items>
+		<item file="template/twoColList.w"></item>
+		<item file="template/twoColList.js" />
+		<item file="template/twoColList.css" />
+	</items>
+
+</template>

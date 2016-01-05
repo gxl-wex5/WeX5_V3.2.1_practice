@@ -1,0 +1,12 @@
+<template text="通用" desc="左图右文列表" custom="false">
+	<images>
+		<image src="template.png"/>
+	</images>
+
+	<items>
+		<item file="template/classs.w"></item>
+		<item file="template/class.js" />
+		<item file="template/class.css" />
+	</items>
+
+</template>

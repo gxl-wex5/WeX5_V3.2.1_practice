@@ -1,0 +1,21 @@
+.bg-white{ background-color:#fff;}/*白色背景*/
+.text-black{ color:#333;}
+
+.x-titlebar{ background-color:#ff4400;}
+.panel.panel-default{ margin-bottom:10px;}
+.row{ margin:0;}
+
+.x-box{ margin-bottom:10px; border-top:1px solid #dcdcdc; border-bottom:3px solid #dcdcdc;}
+.del-line{ text-decoration:line-through;}/*删除线*/
+
+.img-shop{ width:20px; height:20px;}
+.img-good{height:110px;}
+
+/*商品*/
+.x-goodList{ margin-bottom:5px;}
+.x-goodList:last-child{ margin-bottom:0px;}
+.x-goodList .col{ height:120px; padding:5px 0; font-size:12px; background-color:#fafafa;}
+
+/*底部结算**/
+.x-panel-bottom .h4{ margin:5px 0;}
+.x-settlement{background-color:#fd5001; color:#fff; font-size:16px;}

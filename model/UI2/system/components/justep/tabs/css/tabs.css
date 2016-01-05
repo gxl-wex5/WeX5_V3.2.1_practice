@@ -1,0 +1,18 @@
+.x-tabs,
+.x-tabs >.x-panel,
+.x-tabs >.x-panel>.x-panel-content>.x-contents,
+.x-tabs >.x-panel>.x-panel-content>.x-contents>.x-contents-content {
+	height: 100%;
+}
+.nav-pills{
+	border-bottom:1px solid #428bca;
+}
+.nav-pills > li > a {
+	border-radius:0;
+	border-top-right-radius: 4px;
+}
+
+.x-tabs >.x-panel >.x-panel-top >.nav-justified > li {
+	display: table-cell; 
+	width: 1%; 
+}

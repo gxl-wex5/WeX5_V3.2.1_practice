@@ -1,0 +1,36 @@
+.x-bg-img{
+	background-color: #ebebeb;
+}
+.oh {
+	overflow: hidden !important;
+}
+
+#container {
+	width: 100%;
+	max-width: 640px;
+	min-width: 320px;
+	margin: 0 auto;
+}
+
+.x-grid{ margin:4.3% 0 1.5% 4.3%; list-type:none}
+.x-grid .cell{ float:left; width:29.7%; margin:0 3.3% 3% 0; border-radius:0.5em;}
+.x-grid .cell .card{ display:block; height:4.27em; text-align:center;}
+.x-grid .cell img{ height:1.8em; margin:6% 0 3.4%; vertical-align:middle;}
+.x-grid .cell span{ display:inline-block; width:100%; height:1.3em; color:#fff; font-weight:bold; overflow:hidden;}
+.x-grid >div:nth-child(1){ background:#ab6269; background:linear-gradient(#ab6269 0%,#99585e 100%);}
+.x-grid >div:nth-child(2){ background:#a9916d; background:linear-gradient(#a9916d 0%,#978261 100%);}
+.x-grid >div:nth-child(3){ background:#6a8799; background:linear-gradient(#6a8799 0%,#5f7989 100%);}
+.x-grid >div:nth-child(4){ background:#b58b7b; background:linear-gradient(#b58b7b 0%,#a27c6e 100%);}
+.x-grid >div:nth-child(5){ background:#977399; background:linear-gradient(#977399 0%,#876789 100%);}
+.x-grid >div:nth-child(6){ background:#97a1b7; background:linear-gradient(#97a1b7 0%,#8790a4 100%);}
+.x-grid-menu{ margin:0 0 2.9% 4.3%;}
+.x-grid-menu .cell{ float:left; width:30.3%; margin:0 1.8% 3.3% 0; background-color:#ffffff; border:#e0e0e0 solid 1px; border-radius:0.3em; box-shadow:1px 1px 1px rgba(0,0,0,0.06);}
+.x-grid-menu .cell .card{ display:block; height:9.3em; text-align:center;}
+.x-grid-menu .cell img{ width:100%; height:5.9em; margin-bottom:18.9%; vertical-align:middle; -webkit-border-top-left-radius:0.3em; -webkit-border-top-right-radius:0.3em;}
+.x-grid-menu .cell span{ display:inline-block; width:100%; height:1.3em; color:#737373; font-weight:bold; overflow:hidden;}
+@media screen and (min-width:480px){
+	#container{ font-size:20px;}
+}
+@media screen and (min-width:640px){
+	#container{ font-size:24px;}
+}

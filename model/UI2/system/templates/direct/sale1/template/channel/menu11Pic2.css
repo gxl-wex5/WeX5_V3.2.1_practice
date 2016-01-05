@@ -1,0 +1,34 @@
+.x-bg-im2{ background:url(../img/bg4.jpg); background-size:320px 100%;}
+.oh {
+	overflow: hidden !important;
+}
+
+.x-list-menu{ padding-top:15px;padding-left:5px;width: 305px;margin: 0 auto;list-style: none}
+.x-list-menu li{ float:left; width:93px; margin:0 6px 11px 0; background-color:#ffffff; border-radius:4px; box-shadow:1px 1px 4px rgba(0,0,0,0.1);}
+.x-list-menu li img{ vertical-align:middle; -webkit-border-top-left-radius:4px; -webkit-border-top-right-radius:4px;}
+ul{
+	padding : 0px
+}
+.x-img {
+	height: 93px;
+	width: 93px
+}
+
+#container {
+	width: 100%;
+	max-width: 640px;
+	min-width: 320px;
+	margin: 0 auto;
+}
+
+@media screen and (min-width:480px) {
+	#container {
+		font-size: 18px;
+	}
+}
+
+@media screen and (min-width:640px) {
+	#container {
+		font-size: 22px;
+	}
+}
